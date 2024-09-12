@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title
+{
+  margin-top: 10px;
+}
+body{
+    background: url(https://plus.unsplash.com/premium_photo-1661443781814-333019eaad2d?q=80&w=2151&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.container{
+    box-sizing: border-box;
+    
+    width: 70%;
+    max-width: 550px;
+    height: auto;
+    margin: 50px auto;   
+    color: white;
+    
+   /* background: transparent;*/
+}
+h1,p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+form{
+    margin: 30px 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.5); /* White*/
+    padding: 40px;
+}
+
+label:first-of-type{
+    margin-top: 0;
+}
+label{
+    margin-top: 30px;
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+input,select,textarea{
+width: 100%;
+border: none;
+padding: 0 10px;
+margin-top: 5px;
+}
+input,select{
+    height: 30px;
+}
+
+
+
+input[type="radio"],input[type="checkbox"]{
+    height: 15px;
+    width: auto;
+}
+#genders,#hobby{
+    margin-top: 0;
+}
+
+
+textarea{
+    height: 60px;
+}
+
+#submit{
+    background-color: rgb(52, 184, 52);
+    color: white;
+}
+
